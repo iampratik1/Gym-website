@@ -1,0 +1,107 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0px;
+    padding:0px;
+    background: url('wp2482995.jpg');  
+}
+.left{
+    display:inline-block;
+    /* border:2px solid red;
+    border-radius: 30px; */
+    color: white;
+    position: absolute;
+    left:34px;
+    top:20px;
+}
+.mid{
+    /* border:2px solid rgb(209, 223, 16); */
+    color: white;
+    display: block;
+    width:50%;
+    margin:20px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    right:34px;
+    /* border:2px solid rgb(0, 255, 221); */
+    color: white;
+}
+
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size:25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding:34px 18px;
+}
+.navbar li a:hover , .navbar li a.active{
+    text-decoration: underline;
+    color:grey;
+}
+.left img{
+    width: 80px;
+    border-radius: 50px;
+    border: 1px solid ;
+}
+
+.btn{
+    margin: 14px 9px;
+    background-color: black;
+    color: white;
+    padding:4px 14px;
+    border:2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.btn:hover{
+    background-color: rgb(119, 118, 118);
+}
+.container{
+    border:2px solid white;
+    color:white;
+    margin:106px 80px;
+    padding: 75px;
+    width: 31%;
+    border-radius: 28px;
+    
+   backdrop-filter: blur(6px);
+}
+.container h1{
+    font-size: 34px;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    
+}
+span{
+    color:rgb(196, 115, 11)
+}
+
+
+.form-group input{
+    text-align: center;
+    display:block;
+    width: 400px;
+    padding:1px;
+    margin:11px auto;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.form-group button{
+    display: block;
+    width:50%;
+    margin:auto;
+    padding: 7px;
+    font-size:20px;
+}
